@@ -1,22 +1,13 @@
-# Boletim clínico ACP — 24/11/2026
+# Boletins clínicos ACP
 
-Site estático do Departamento Médico do Atlético Clube de Portugal.
-Inclui o boletim corrigido de 24 de novembro de 2026.
+Site público do Departamento Médico do Atlético Clube de Portugal. Apresenta a edição mais recente destinada à comunicação externa.
 
-## Abrir no computador
+## Atualizar a edição
 
-Extrair todos os ficheiros do ZIP e abrir `index.html` no navegador.
+1. Preparar o JPEG final e confirmar a data e o conteúdo para divulgação.
+2. Atualizar o `index.html` e o JPEG na pasta `boletins/` no mesmo commit à branch `main`.
+3. Confirmar que o Netlify publicou o commit e que a página abre a edição correta.
 
-## Começar com um repositório novo
+O site é estático. O `netlify.toml` indica a raiz do repositório como pasta de publicação e o site não precisa de um comando de compilação. Para pré-visualizar no computador, abrir `index.html` no navegador.
 
-1. Criar um repositório **privado** no GitHub.
-2. Carregar o conteúdo extraído para a raiz do repositório, mantendo as pastas
-   `assets` e `boletins`. O ficheiro `index.html` fica ao lado de `netlify.toml`.
-3. No Netlify, confirmar que o projeto e as pré-visualizações têm acesso restrito
-   antes de importar o repositório. O ZIP contém um boletim clínico identificável.
-4. Importar o repositório. Usar `main`, deixar o comando de compilação em branco
-   e manter `.` como pasta de publicação, conforme definido em `netlify.toml`.
-
-Fotografia do Estádio da Tapadinha por [Hmf Costa](https://commons.wikimedia.org/wiki/File:Estadio-da-tapadinha_001.jpg),
-[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
-A fotografia é apresentada com enquadramento adaptado no site.
+Fotografia do Estádio da Tapadinha por [Hmf Costa](https://commons.wikimedia.org/wiki/File:Estadio-da-tapadinha_001.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Enquadramento adaptado no site.
